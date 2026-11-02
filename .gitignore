@@ -1,0 +1,11 @@
+# Generated bronze data snapshots — regenerable from generator/generate_bronze.py,
+# not tracked in Git (scripts, config, and requirements stay tracked)
+generator/bronze/
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Databricks / logs
+*.log
