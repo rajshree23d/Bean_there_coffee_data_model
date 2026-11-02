@@ -1,0 +1,36 @@
+defect_no,defect_type,table,column,configured_rate,rows_eligible,rows_injected,actual_rate,note
+1,Duplicate record,loyalty_transactions,(entire row),0.01,32862,329,0.01001,exact duplicate appended (retry/replay)
+1,Duplicate record,pos_order_items,(entire row),0.01,160566,1606,0.01,exact duplicate appended (retry/replay)
+1,Duplicate record,pos_orders,(entire row),0.01,69495,695,0.01,exact duplicate appended (retry/replay)
+2,Inconsistent casing/whitespace,employees,role,0.01,66,1,0.01515,"e.g. credit, Credit, CREDIT , ' credit'"
+2,Inconsistent casing/whitespace,inventory_waste_log,waste_reason,0.01,8607,86,0.00999,"e.g. credit, Credit, CREDIT , ' credit'"
+2,Inconsistent casing/whitespace,loyalty_members,current_tier,0.01,2400,24,0.01,"e.g. credit, Credit, CREDIT , ' credit'"
+2,Inconsistent casing/whitespace,pos_orders,order_channel,0.01,69495,695,0.01,"e.g. credit, Credit, CREDIT , ' credit'"
+2,Inconsistent casing/whitespace,pos_orders,payment_method,0.01,69495,690,0.00993,"e.g. credit, Credit, CREDIT , ' credit'"
+2,Inconsistent casing/whitespace,products,category,0.01,40,0,0.0,"e.g. credit, Credit, CREDIT , ' credit'"
+3,Mixed date/time format,inventory_waste_log,waste_date,0.01,8607,86,0.00999,"examples: %m/%d/%Y, %d-%b-%y, %Y.%m.%d"
+3,Mixed date/time format,loyalty_members,signup_date,0.01,2400,24,0.01,"examples: %m/%d/%Y, %d-%b-%y, %Y.%m.%d"
+3,Mixed date/time format,pos_orders,order_timestamp,0.01,69495,695,0.01,"examples: %m/%d/%Y %I:%M %p, %d-%b-%y %H:%M, %Y/%m/%d %H:%M:%S"
+3,Mixed date/time format,shifts,shift_start,0.01,12620,126,0.00998,"examples: %m/%d/%Y %I:%M %p, %d-%b-%y %H:%M, %Y/%m/%d %H:%M:%S"
+4,Number stored as string,employees,hourly_rate,0.01,66,1,0.01515,"examples: ""$4.50"", ""4,50"", ""4.50 USD"""
+4,Number stored as string,pos_order_items,unit_price,0.01,160566,1606,0.01,"examples: ""$4.50"", ""4,50"", ""4.50 USD"""
+4,Number stored as string,pos_orders,subtotal,0.01,69495,695,0.01,"examples: ""$4.50"", ""4,50"", ""4.50 USD"""
+4,Number stored as string,pos_orders,tip,0.01,69495,695,0.01,"examples: ""$4.50"", ""4,50"", ""4.50 USD"""
+5,Orphaned foreign key,inventory_waste_log,ingredient_id,0.01,8607,86,0.00999,values like 777 do not exist in the parent table
+5,Orphaned foreign key,pos_order_items,product_id,0.01,160566,1606,0.01,values like 900 do not exist in the parent table
+5,Orphaned foreign key,pos_orders,employee_id,0.01,69495,695,0.01,values like 9999 do not exist in the parent table
+6,Unexpected null,inventory_waste_log,waste_reason,0.01,8607,86,0.00999,
+6,Unexpected null,loyalty_members,email,0.01,2400,24,0.01,
+6,Unexpected null,pos_order_items,size,0.01,121836,1218,0.01,
+6,Unexpected null,pos_orders,payment_method,0.01,69495,695,0.01,
+7,Negative or zero quantity,inventory_waste_log,quantity_wasted,0.01,8607,86,0.00999,waste quantity made negative
+7,Negative or zero quantity,pos_order_items,quantity,0.01,160566,1606,0.01,void/refund stored as -1
+7,Negative or zero quantity,pos_order_items,quantity,0.01,160566,1606,0.01,quantity = 0
+8,Late-arriving record,loyalty_transactions,txn_date,0.01,31414,314,0.01,txn_date 3-10 days BEFORE its order; file stays in the order's month
+9,Logically impossible,pos_orders,tip,0.01,69495,695,0.01,tip greater than subtotal
+9,Logically impossible,shifts,shift_end,0.01,12620,126,0.00998,shift_end earlier than shift_start
+10,Overlapping history,loyalty_tier_history,end_date,0.01,946,9,0.00951,a tier's end_date runs past the next tier's effective_date
+11,Schema drift,loyalty_members,marketing_opt_in (new column),from 2025-07,2400,348,0.145,extra column in every file from ingest_month=2025-07
+11,Schema drift,pos_orders,order_channel -> channel,from 2025-07,70190,37808,0.53865,column renamed in every file from ingest_month=2025-07
+12,Outlier,pos_order_items,quantity,0.01,160566,1606,0.01,quantity set to 500
+12,Outlier,pos_order_items,unit_price,0.01,160566,1606,0.01,unit_price set to 9999

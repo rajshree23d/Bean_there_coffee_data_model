@@ -1,0 +1,41 @@
+product_id,product_name,category,subcategory,is_seasonal,launch_date,discontinued_date,base_price,_source_system,_source_file,_batch_id,_ingested_at
+1,Latte,espresso,hot_espresso,False,2019-01-01,,4.75,product_catalog,products_20250131.csv,product_catalog_202501_seed42,2025-01-31 23:59:00
+2,Iced Latte,espresso,iced_espresso,False,2019-01-01,,4.75,product_catalog,products_20250131.csv,product_catalog_202501_seed42,2025-01-31 23:59:00
+3,Vanilla Latte,espresso,hot_espresso,False,2019-01-01,,4.95,product_catalog,products_20250131.csv,product_catalog_202501_seed42,2025-01-31 23:59:00
+4,Cappuccino,espresso,hot_espresso,False,2019-01-01,,4.25,product_catalog,products_20250131.csv,product_catalog_202501_seed42,2025-01-31 23:59:00
+5,Americano,espresso,hot_espresso,False,2019-01-01,,3.5,product_catalog,products_20250131.csv,product_catalog_202501_seed42,2025-01-31 23:59:00
+6,Iced Americano,espresso,iced_espresso,False,2019-01-01,,3.75,product_catalog,products_20250131.csv,product_catalog_202501_seed42,2025-01-31 23:59:00
+7,Mocha,espresso,hot_espresso,False,2019-01-01,,5.0,product_catalog,products_20250131.csv,product_catalog_202501_seed42,2025-01-31 23:59:00
+8,Iced Mocha,espresso,iced_espresso,False,2019-01-01,,5.25,product_catalog,products_20250131.csv,product_catalog_202501_seed42,2025-01-31 23:59:00
+9,Flat White,espresso,hot_espresso,False,2020-03-01,,4.75,product_catalog,products_20250131.csv,product_catalog_202501_seed42,2025-01-31 23:59:00
+10,Caramel Macchiato,espresso,hot_espresso,False,2019-01-01,,5.25,product_catalog,products_20250131.csv,product_catalog_202501_seed42,2025-01-31 23:59:00
+11,Pumpkin Spice Latte,espresso,seasonal_espresso,True,2025-09-01,2025-11-30,5.5,product_catalog,products_20250131.csv,product_catalog_202501_seed42,2025-01-31 23:59:00
+12,Peppermint Mocha,espresso,seasonal_espresso,True,2025-11-15,2025-12-28,5.5,product_catalog,products_20250131.csv,product_catalog_202501_seed42,2025-01-31 23:59:00
+13,House Drip,brewed,drip,False,2019-01-01,,2.95,product_catalog,products_20250131.csv,product_catalog_202501_seed42,2025-01-31 23:59:00
+14,Dark Roast Drip,brewed,drip,False,2019-01-01,,2.95,product_catalog,products_20250131.csv,product_catalog_202501_seed42,2025-01-31 23:59:00
+15,Decaf Drip,brewed,drip,False,2019-01-01,,2.75,product_catalog,products_20250131.csv,product_catalog_202501_seed42,2025-01-31 23:59:00
+16,Cold Brew,brewed,cold_brew,False,2019-06-01,,4.5,product_catalog,products_20250131.csv,product_catalog_202501_seed42,2025-01-31 23:59:00
+17,Nitro Cold Brew,brewed,cold_brew,False,2021-05-01,,5.25,product_catalog,products_20250131.csv,product_catalog_202501_seed42,2025-01-31 23:59:00
+18,Summer Caramel Cold Brew,brewed,seasonal_cold_brew,True,2025-05-15,2025-09-15,5.25,product_catalog,products_20250131.csv,product_catalog_202501_seed42,2025-01-31 23:59:00
+19,Black Tea,tea,hot_tea,False,2019-01-01,,3.0,product_catalog,products_20250131.csv,product_catalog_202501_seed42,2025-01-31 23:59:00
+20,Iced Black Tea,tea,iced_tea,False,2019-01-01,,3.25,product_catalog,products_20250131.csv,product_catalog_202501_seed42,2025-01-31 23:59:00
+21,Green Tea,tea,hot_tea,False,2019-01-01,,3.0,product_catalog,products_20250131.csv,product_catalog_202501_seed42,2025-01-31 23:59:00
+22,Chai Latte,tea,latte_tea,False,2019-01-01,,4.75,product_catalog,products_20250131.csv,product_catalog_202501_seed42,2025-01-31 23:59:00
+23,Iced Chai,tea,iced_tea,False,2019-01-01,,4.95,product_catalog,products_20250131.csv,product_catalog_202501_seed42,2025-01-31 23:59:00
+24,Matcha Latte,tea,latte_tea,False,2021-01-01,,5.25,product_catalog,products_20250131.csv,product_catalog_202501_seed42,2025-01-31 23:59:00
+25,Iced Matcha,tea,iced_tea,False,2021-01-01,,5.5,product_catalog,products_20250131.csv,product_catalog_202501_seed42,2025-01-31 23:59:00
+26,Butter Croissant,pastry,croissant,False,2019-01-01,,3.5,product_catalog,products_20250131.csv,product_catalog_202501_seed42,2025-01-31 23:59:00
+27,Almond Croissant,pastry,croissant,False,2020-01-01,,4.25,product_catalog,products_20250131.csv,product_catalog_202501_seed42,2025-01-31 23:59:00
+28,Blueberry Muffin,pastry,muffin,False,2019-01-01,,3.25,product_catalog,products_20250131.csv,product_catalog_202501_seed42,2025-01-31 23:59:00
+29,Plain Bagel,pastry,bagel,False,2019-01-01,,2.75,product_catalog,products_20250131.csv,product_catalog_202501_seed42,2025-01-31 23:59:00
+30,Chocolate Chip Cookie,pastry,cookie,False,2019-01-01,,2.5,product_catalog,products_20250131.csv,product_catalog_202501_seed42,2025-01-31 23:59:00
+31,Pumpkin Muffin,pastry,seasonal_muffin,True,2025-09-01,2025-11-30,3.75,product_catalog,products_20250131.csv,product_catalog_202501_seed42,2025-01-31 23:59:00
+32,Egg & Cheese Sandwich,sandwich,breakfast,False,2019-01-01,,6.5,product_catalog,products_20250131.csv,product_catalog_202501_seed42,2025-01-31 23:59:00
+33,Breakfast Sandwich,sandwich,breakfast,False,2020-01-01,,6.95,product_catalog,products_20250131.csv,product_catalog_202501_seed42,2025-01-31 23:59:00
+34,Turkey Club,sandwich,lunch,False,2019-01-01,,8.5,product_catalog,products_20250131.csv,product_catalog_202501_seed42,2025-01-31 23:59:00
+35,Ham & Swiss,sandwich,lunch,False,2019-01-01,,7.95,product_catalog,products_20250131.csv,product_catalog_202501_seed42,2025-01-31 23:59:00
+36,Veggie Sandwich,sandwich,lunch,False,2020-01-01,,7.5,product_catalog,products_20250131.csv,product_catalog_202501_seed42,2025-01-31 23:59:00
+37,Travel Tumbler,merch,drinkware,False,2019-01-01,,24.0,product_catalog,products_20250131.csv,product_catalog_202501_seed42,2025-01-31 23:59:00
+38,Ceramic Mug,merch,drinkware,False,2019-01-01,,14.0,product_catalog,products_20250131.csv,product_catalog_202501_seed42,2025-01-31 23:59:00
+39,Whole Bean Bag,merch,beans,False,2019-01-01,,16.0,product_catalog,products_20250131.csv,product_catalog_202501_seed42,2025-01-31 23:59:00
+40,Canvas Tote,merch,bags,False,2019-01-01,,12.0,product_catalog,products_20250131.csv,product_catalog_202501_seed42,2025-01-31 23:59:00

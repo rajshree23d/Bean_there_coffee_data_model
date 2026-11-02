@@ -1,0 +1,26 @@
+ingredient_id,ingredient_name,ingredient_type,unit_of_measure,supplier_id,unit_cost,_source_system,_source_file,_batch_id,_ingested_at
+1,Whole Milk,dairy,ml,1,0.00371,inventory,ingredients_20250131.csv,inventory_202501_seed42,2025-01-31 23:59:00
+2,Oat Milk,dairy,ml,1,0.00825,inventory,ingredients_20250131.csv,inventory_202501_seed42,2025-01-31 23:59:00
+3,Almond Milk,dairy,ml,1,0.007,inventory,ingredients_20250131.csv,inventory_202501_seed42,2025-01-31 23:59:00
+4,Whipped Cream,dairy,ml,1,0.009,inventory,ingredients_20250131.csv,inventory_202501_seed42,2025-01-31 23:59:00
+5,Espresso Beans,coffee_bean,g,2,0.027,inventory,ingredients_20250131.csv,inventory_202501_seed42,2025-01-31 23:59:00
+6,House Blend Beans,coffee_bean,g,2,0.018,inventory,ingredients_20250131.csv,inventory_202501_seed42,2025-01-31 23:59:00
+7,Cold Brew Concentrate,coffee_bean,ml,2,0.012,inventory,ingredients_20250131.csv,inventory_202501_seed42,2025-01-31 23:59:00
+8,Loose Tea Leaves,coffee_bean,g,3,0.03,inventory,ingredients_20250131.csv,inventory_202501_seed42,2025-01-31 23:59:00
+9,Vanilla Syrup,syrup,ml,3,0.012,inventory,ingredients_20250131.csv,inventory_202501_seed42,2025-01-31 23:59:00
+10,Caramel Syrup,syrup,ml,3,0.012,inventory,ingredients_20250131.csv,inventory_202501_seed42,2025-01-31 23:59:00
+11,Pumpkin Spice Syrup,syrup,ml,3,0.016,inventory,ingredients_20250131.csv,inventory_202501_seed42,2025-01-31 23:59:00
+12,Peppermint Syrup,syrup,ml,3,0.014,inventory,ingredients_20250131.csv,inventory_202501_seed42,2025-01-31 23:59:00
+13,Mocha Sauce,syrup,ml,3,0.015,inventory,ingredients_20250131.csv,inventory_202501_seed42,2025-01-31 23:59:00
+14,Chai Concentrate,syrup,ml,3,0.01,inventory,ingredients_20250131.csv,inventory_202501_seed42,2025-01-31 23:59:00
+15,Matcha Powder,syrup,g,3,0.08,inventory,ingredients_20250131.csv,inventory_202501_seed42,2025-01-31 23:59:00
+16,Frozen Croissant,bakery,each,4,0.5885,inventory,ingredients_20250131.csv,inventory_202501_seed42,2025-01-31 23:59:00
+17,Muffin,bakery,each,4,0.5,inventory,ingredients_20250131.csv,inventory_202501_seed42,2025-01-31 23:59:00
+18,Bagel,bakery,each,4,0.35,inventory,ingredients_20250131.csv,inventory_202501_seed42,2025-01-31 23:59:00
+19,Cookie,bakery,each,4,0.4,inventory,ingredients_20250131.csv,inventory_202501_seed42,2025-01-31 23:59:00
+20,Sandwich Bread,bakery,slice,4,0.15,inventory,ingredients_20250131.csv,inventory_202501_seed42,2025-01-31 23:59:00
+21,Sandwich Filling,bakery,serving,4,1.1,inventory,ingredients_20250131.csv,inventory_202501_seed42,2025-01-31 23:59:00
+22,Cup Small,packaging,each,5,0.12,inventory,ingredients_20250131.csv,inventory_202501_seed42,2025-01-31 23:59:00
+23,Cup Medium,packaging,each,5,0.15,inventory,ingredients_20250131.csv,inventory_202501_seed42,2025-01-31 23:59:00
+24,Cup Large,packaging,each,5,0.19,inventory,ingredients_20250131.csv,inventory_202501_seed42,2025-01-31 23:59:00
+25,Lid,packaging,each,5,0.05,inventory,ingredients_20250131.csv,inventory_202501_seed42,2025-01-31 23:59:00

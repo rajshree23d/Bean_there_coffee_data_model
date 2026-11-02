@@ -1,0 +1,21 @@
+
+seed: 42
+
+data:
+  start_date: "2025-01-01"
+  end_date: "2025-12-31"
+
+  num_stores: 12
+  num_employees: 60
+  num_products: 40
+  num_ingredients: 25
+  num_loyalty_members: 2400
+  avg_orders_per_store_day: 12.5
+
+  min_orders: 50000
+  min_order_items: 120000
+  min_waste_records: 5000
+
+defects:
+  enabled: true
+  rate: 0.01
